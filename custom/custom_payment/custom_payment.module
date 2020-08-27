@@ -1,0 +1,19 @@
+<?php
+
+/**
+* Implements hook_mail().
+*/
+function custom_payment_mail($key, &$message, $params) {
+
+    $options = array(
+      'langcode' => $message['langcode'],
+    );
+    switch ($key) {
+        case 'confirmation_email':
+            $message['from'] = 'info@dot.jo';
+            $message['subject'] = t('Confirmation email');
+            $message['body'][] = $params['message'];
+        break;
+    }
+
+}

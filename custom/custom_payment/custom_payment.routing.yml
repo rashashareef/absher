@@ -1,0 +1,22 @@
+custom_payment.mips_pay:
+    path: '/mips_pay'
+    defaults:
+        _controller: '\Drupal\custom_payment\Controller\MipsPay::content'
+        _title: ''
+    requirements:
+        _permission: 'access content'   
+custom_payment.mips_handler:
+    path: '/mips_handler'
+    defaults:
+        _controller: '\Drupal\custom_payment\Controller\MipsHandler::content'
+        _title: ''
+    requirements:
+        _permission: 'access content'
+custom_payment.summary_page:
+    path: '/summary_page'
+    defaults:
+        _controller: '\Drupal\custom_payment\Controller\SummaryPage::content'
+        _title: ''
+    requirements:
+        _permission: 'access content'    
+        
