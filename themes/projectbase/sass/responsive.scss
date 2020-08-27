@@ -1,0 +1,105 @@
+@media only screen and (max-width: 1024px){
+  .main-menu-wrap #block-mainnavigation li a {
+      padding: 30px 70px 30px 0px;
+  }
+
+  body.lang-en #block-languageswitcher{
+    margin-left: 0;
+    ol, ul {
+      padding-left: 0;
+    }
+  }
+  #block-quicktabsnews ul.quicktabs-tabs li a {
+    font-size: 18px;
+    width: 22%;
+  }
+  .marriage #block-exposedformmarriagepage-1 fieldset,
+  .marriage #views-exposed-form-user-marriage-page-1 fieldset {
+    margin-right: 30px;
+  }
+  #block-views-block-our-kitchen-block-1 .views-row {
+    width: 30%;
+  }
+  .path-our-kitchen .views-view-responsive-grid .views-col {
+    width: 30%;
+  }
+  #block-views-block-our-kitchen-block-1 .views-row .views-field-title a,
+  .view-our-kitchen .views-row .views-field-title a {
+    font-size: 14px;
+  }
+  .important-news .simply-scroll .simply-scroll-clip {
+    width: inherit;
+  }
+}
+
+
+
+@media only screen and (max-width: 812px){
+  #header .search-wrap .form-control {
+    width: 100%;
+  }
+  #header .search-wrap form {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .main-menu-wrap #block-mainnavigation li a {
+    padding: 30px 30px 30px 0px;
+    font-size: 20px;
+  }
+  #block-views-block-news-slideshow-block-1 .slide-image img {
+    width: 100%;
+  }
+  #block-views-block-news-slideshow-block-1 .slide-text-bg {
+    width: 100%;
+  }
+  #block-views-block-news-slideshow-block-1 .slide-text {
+    width: 100%;
+  }
+  .slideshow-wrap{
+    margin-bottom: 30px;
+  }
+  .marriage .marriage-shadow {
+    height: inherit;
+  }
+  .marriage {
+    height: inherit;
+    background-attachment: inherit;
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: repeat;
+  }
+  .js-form-item-field-state-value{
+    float: inherit;
+  }
+
+}
+@media only screen and (max-width: 640px){
+  .important-news .simply-scroll .simply-scroll-list li {
+    width: 35% !important;
+  }
+  .important-news .simply-scroll {
+    width: inherit;
+  }
+  #edit-field-gender-value{
+    .form-item {
+      float: left;
+    }
+  }
+  .marriage #block-exposedformmarriagepage-1 .form-submit,
+  .marriage #views-exposed-form-user-marriage-page-1 .form-submit {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .main-menu-wrap{
+    background: #8686FF 0% 0% no-repeat padding-box;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  footer #block-footermap ul li.footermap-item--depth-1 a {
+    font-size: 18px;
+  }
+  footer #block-footermap ul li.footermap-item--depth-1 ul li.footermap-item--depth-2 a {
+    font-size: 15px;
+  }
+}

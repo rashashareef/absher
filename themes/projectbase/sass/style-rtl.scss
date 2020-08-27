@@ -1,0 +1,75 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+ //English font
+ @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+ //Arabic Font
+ @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap');
+
+@mixin float-right{
+  float: right !important;
+}
+ body.lang-ar{
+   font-family: 'Tajawal', sans-serif;
+ }
+ .lang-ar{
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+   .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+     @include float-right;
+   }
+   .pull-left{
+      @include float-right;
+   }
+   #header .search-wrap #block-searchform{
+     @include float-right;
+   }
+   #header .search-wrap form .input-group-btn{
+     left: 82px;
+     right: inherit;
+   }
+
+   #header .search-wrap .form-control {
+       padding: 10px 10px 10px 90px;
+   }
+   #block-languageswitcher{
+     display: inline-block;
+     margin-top: 10px;
+     margin-left: 25px;
+    margin-right: inherit;
+    ul, ol {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding: 0;
+      }
+     li{
+       list-style: none;
+     }
+     li.ar{
+       display: none;
+     }
+     li.ar{
+       font-family: 'Lato';
+     }
+     a{
+       color: #DBDBFF;
+       font-size: 20px;
+     }
+   }
+   #header #block-socialmedia li {
+      margin-right: inherit;
+       margin-left: 12px;
+   }
+   #header #block-socialmedia{
+     float: left;
+     ul{
+       padding: 0;
+     }
+   }
+
+   .main-menu-wrap #block-mainnavigation li a {
+       padding: 30px 0 30px 103px;
+       font-size: 24px;
+   }
+ }

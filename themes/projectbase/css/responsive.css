@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1024px) {
+  /* line 2, ../sass/responsive.scss */
+  .main-menu-wrap #block-mainnavigation li a {
+    padding: 30px 70px 30px 0px;
+  }
+
+  /* line 6, ../sass/responsive.scss */
+  body.lang-en #block-languageswitcher {
+    margin-left: 0;
+  }
+  /* line 8, ../sass/responsive.scss */
+  body.lang-en #block-languageswitcher ol, body.lang-en #block-languageswitcher ul {
+    padding-left: 0;
+  }
+
+  /* line 12, ../sass/responsive.scss */
+  #block-quicktabsnews ul.quicktabs-tabs li a {
+    font-size: 18px;
+    width: 22%;
+  }
+
+  /* line 16, ../sass/responsive.scss */
+  .marriage #block-exposedformmarriagepage-1 fieldset,
+  .marriage #views-exposed-form-user-marriage-page-1 fieldset {
+    margin-right: 30px;
+  }
+
+  /* line 20, ../sass/responsive.scss */
+  #block-views-block-our-kitchen-block-1 .views-row {
+    width: 30%;
+  }
+
+  /* line 23, ../sass/responsive.scss */
+  .path-our-kitchen .views-view-responsive-grid .views-col {
+    width: 30%;
+  }
+
+  /* line 26, ../sass/responsive.scss */
+  #block-views-block-our-kitchen-block-1 .views-row .views-field-title a,
+  .view-our-kitchen .views-row .views-field-title a {
+    font-size: 14px;
+  }
+
+  /* line 30, ../sass/responsive.scss */
+  .important-news .simply-scroll .simply-scroll-clip {
+    width: inherit;
+  }
+}
+@media only screen and (max-width: 812px) {
+  /* line 38, ../sass/responsive.scss */
+  #header .search-wrap .form-control {
+    width: 100%;
+  }
+
+  /* line 41, ../sass/responsive.scss */
+  #header .search-wrap form {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  /* line 45, ../sass/responsive.scss */
+  .main-menu-wrap #block-mainnavigation li a {
+    padding: 30px 30px 30px 0px;
+    font-size: 20px;
+  }
+
+  /* line 49, ../sass/responsive.scss */
+  #block-views-block-news-slideshow-block-1 .slide-image img {
+    width: 100%;
+  }
+
+  /* line 52, ../sass/responsive.scss */
+  #block-views-block-news-slideshow-block-1 .slide-text-bg {
+    width: 100%;
+  }
+
+  /* line 55, ../sass/responsive.scss */
+  #block-views-block-news-slideshow-block-1 .slide-text {
+    width: 100%;
+  }
+
+  /* line 58, ../sass/responsive.scss */
+  .slideshow-wrap {
+    margin-bottom: 30px;
+  }
+
+  /* line 61, ../sass/responsive.scss */
+  .marriage .marriage-shadow {
+    height: inherit;
+  }
+
+  /* line 64, ../sass/responsive.scss */
+  .marriage {
+    height: inherit;
+    background-attachment: inherit;
+    background-position: inherit;
+    background-size: inherit;
+    background-repeat: repeat;
+  }
+
+  /* line 71, ../sass/responsive.scss */
+  .js-form-item-field-state-value {
+    float: inherit;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 77, ../sass/responsive.scss */
+  .important-news .simply-scroll .simply-scroll-list li {
+    width: 35% !important;
+  }
+
+  /* line 80, ../sass/responsive.scss */
+  .important-news .simply-scroll {
+    width: inherit;
+  }
+
+  /* line 84, ../sass/responsive.scss */
+  #edit-field-gender-value .form-item {
+    float: left;
+  }
+
+  /* line 88, ../sass/responsive.scss */
+  .marriage #block-exposedformmarriagepage-1 .form-submit,
+  .marriage #views-exposed-form-user-marriage-page-1 .form-submit {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 93, ../sass/responsive.scss */
+  .main-menu-wrap {
+    background: #8686FF 0% 0% no-repeat padding-box;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /* line 99, ../sass/responsive.scss */
+  footer #block-footermap ul li.footermap-item--depth-1 a {
+    font-size: 18px;
+  }
+
+  /* line 102, ../sass/responsive.scss */
+  footer #block-footermap ul li.footermap-item--depth-1 ul li.footermap-item--depth-2 a {
+    font-size: 15px;
+  }
+}

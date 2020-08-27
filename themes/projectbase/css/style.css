@@ -1,0 +1,1093 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap");
+/* line 11, ../sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+}
+/* line 14, ../sass/style.scss */
+body a:hover {
+  text-decoration: none;
+}
+
+/* line 20, ../sass/style.scss */
+#header {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  padding: 29px 0 19px 0;
+  /* Logo Style */
+  /* Search Style */
+}
+/* line 25, ../sass/style.scss */
+#header .logo img {
+  width: 70%;
+}
+/* line 28, ../sass/style.scss */
+#header .logo .name.navbar-brand {
+  display: none;
+}
+/* line 34, ../sass/style.scss */
+#header .search-wrap #block-searchform {
+  float: left;
+}
+/* line 38, ../sass/style.scss */
+#header .search-wrap #block-useraccountmenu a {
+  color: #DBDBFF;
+}
+/* line 41, ../sass/style.scss */
+#header .search-wrap #block-useraccountmenu a:hover {
+  background: transparent;
+  border: 0;
+  text-decoration: none;
+}
+/* line 47, ../sass/style.scss */
+#header .search-wrap form {
+  width: 325px;
+  margin: 0 0 0 65px;
+}
+/* line 51, ../sass/style.scss */
+#header .search-wrap form .input-group-btn {
+  right: 82px;
+  margin: 0;
+  font-size: 15px;
+  z-index: 9;
+}
+/* line 54, ../sass/style.scss */
+#header .search-wrap form .input-group-btn button {
+  width: 80px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: 0;
+}
+/* line 60, ../sass/style.scss */
+#header .search-wrap form .input-group-btn .icon {
+  display: none;
+}
+/* line 65, ../sass/style.scss */
+#header .search-wrap .form-control {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  width: 325px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  color: #fff;
+  padding: 10px 90px 10px 10px;
+}
+/* line 77, ../sass/style.scss */
+#header #block-socialmedia {
+  display: block;
+  float: right;
+}
+/* line 80, ../sass/style.scss */
+#header #block-socialmedia li {
+  display: inline-block;
+  margin-right: 12px;
+}
+/* line 83, ../sass/style.scss */
+#header #block-socialmedia li a {
+  font-size: 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid #FFFFFFB2;
+  padding: 0;
+}
+/* line 92, ../sass/style.scss */
+#header #block-socialmedia li a:hover {
+  background: none;
+}
+/* line 95, ../sass/style.scss */
+#header #block-socialmedia li svg {
+  font-size: 20px;
+  color: #FFFFFFB2;
+}
+/* line 101, ../sass/style.scss */
+#header #block-socialmedia li.first a {
+  padding: 9px 13px;
+}
+/* line 106, ../sass/style.scss */
+#header #block-socialmedia li:nth-child(2) a {
+  padding: 9px 10px;
+}
+/* line 110, ../sass/style.scss */
+#header #block-socialmedia li.last {
+  margin-right: 0;
+}
+/* line 112, ../sass/style.scss */
+#header #block-socialmedia li.last a {
+  padding: 9px 8px;
+}
+
+/* line 118, ../sass/style.scss */
+body.lang-en {
+  /* social-link Style */
+}
+/* line 120, ../sass/style.scss */
+body.lang-en #block-languageswitcher {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+/* line 124, ../sass/style.scss */
+body.lang-en #block-languageswitcher li {
+  list-style: none;
+}
+/* line 127, ../sass/style.scss */
+body.lang-en #block-languageswitcher li.en {
+  display: none;
+}
+/* line 130, ../sass/style.scss */
+body.lang-en #block-languageswitcher li.ar {
+  font-family: 'Tajawal';
+}
+/* line 133, ../sass/style.scss */
+body.lang-en #block-languageswitcher a {
+  color: #DBDBFF;
+  font-size: 20px;
+}
+
+/* line 144, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li a {
+  padding: 30px 103px 30px 0px;
+  color: #121212;
+  font-size: 21px;
+}
+/* line 149, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li a:hover {
+  text-decoration: none;
+}
+/* line 152, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li ul {
+  background: #3A3A6C 0% 0% no-repeat !important;
+  margin-top: 46px;
+  padding: 12px;
+  border: 1px solid #fff;
+  width: 200px !important;
+}
+/* line 160, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li ul li a {
+  color: #fff;
+  padding: 12px 0px;
+  font-size: 15px;
+  border-bottom: 1px solid #DBDBFF;
+}
+/* line 167, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li ul li:last-child a {
+  padding: 12px 0px;
+  border-bottom: 0;
+}
+/* line 174, ../sass/style.scss */
+.main-menu-wrap #block-mainnavigation li:last-child a {
+  padding: 30px 0px 0 0px;
+}
+
+/* line 182, ../sass/style.scss */
+.important-news {
+  background: #BF002F 0% 0% no-repeat padding-box;
+  clear: both;
+  margin-bottom: 40px;
+}
+/* line 186, ../sass/style.scss */
+.important-news .simply-scroll {
+  width: 719px;
+  height: 60px;
+  margin-bottom: 0;
+}
+/* line 191, ../sass/style.scss */
+.important-news .simply-scroll .simply-scroll-list li {
+  width: 600px !important;
+  height: 60px;
+}
+/* line 195, ../sass/style.scss */
+.important-news .simply-scroll .simply-scroll-clip {
+  width: 1135px;
+  height: 60px;
+}
+/* line 199, ../sass/style.scss */
+.important-news .views-field-title {
+  margin-top: 12px;
+  display: block;
+}
+/* line 204, ../sass/style.scss */
+.important-news .title a {
+  font-size: 18px;
+  color: #fff;
+  display: block;
+  padding-top: 5px;
+}
+
+/* line 213, ../sass/style.scss */
+#block-views-block-important-news-block-1 .name {
+  float: left;
+  width: 36px;
+  height: 36px;
+  word-wrap: break-word;
+  background: #E00037 0% 0% no-repeat padding-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 50%;
+  padding: 5px;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  line-height: 12px;
+  margin-right: 16px;
+}
+/* line 228, ../sass/style.scss */
+#block-views-block-important-news-block-1 .title, #block-views-block-important-news-block-1 .name {
+  display: inline-block;
+}
+
+/* line 236, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .bx-controls {
+  position: absolute;
+  top: 65%;
+  z-index: 500;
+  right: 43%;
+}
+/* line 242, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .bx-wrapper {
+  position: relative;
+}
+/* line 245, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .bx-pager-item {
+  display: inline-block;
+}
+/* line 247, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .bx-pager-item a {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 0.5;
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 50%;
+  margin: 0 2px;
+}
+/* line 257, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .bx-pager-item a.active {
+  opacity: 1;
+}
+/* line 262, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .slide-image img {
+  border-radius: 10px;
+}
+/* line 266, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .slide-text {
+  width: 555px;
+  height: 73px;
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  border-radius: 0 0 10px 10px;
+  opacity: 0.8;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+/* line 277, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .slide-text-bg {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+/* line 281, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .slide-text-bg a {
+  color: #FFFFFF;
+  font-size: 18px;
+  position: relative;
+  padding: 21px 30px;
+  display: block;
+  width: 100%;
+}
+/* line 290, ../sass/style.scss */
+#block-views-block-news-slideshow-block-1 .views-field-nothing {
+  position: relative;
+}
+
+/* line 296, ../sass/style.scss */
+#block-quicktabsnews {
+  background: #F7F7F7 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  height: 313px;
+  overflow-y: scroll;
+}
+/* line 301, ../sass/style.scss */
+#block-quicktabsnews ul.quicktabs-tabs {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  height: 52px;
+  padding-top: 8px;
+  padding-left: 0;
+}
+/* line 307, ../sass/style.scss */
+#block-quicktabsnews ul.quicktabs-tabs li {
+  padding-bottom: 19px;
+}
+/* line 309, ../sass/style.scss */
+#block-quicktabsnews ul.quicktabs-tabs li a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 134.7px;
+  text-align: center;
+}
+/* line 318, ../sass/style.scss */
+#block-quicktabsnews ul.quicktabs-tabs li.active {
+  border-bottom: 3px solid #8686FF;
+}
+/* line 322, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news {
+  margin-top: 20px;
+}
+/* line 324, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-row {
+  min-height: 90px;
+  margin-bottom: 20px;
+}
+/* line 328, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-field-field-image {
+  display: block;
+  float: left;
+  padding-right: 20px;
+  padding-left: 16px;
+}
+/* line 333, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-field-field-image img {
+  border-radius: 10px;
+}
+/* line 337, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-field-title {
+  min-height: 70px;
+}
+/* line 339, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-field-title a {
+  font-size: 18px;
+  color: #3A3A6C;
+}
+/* line 344, ../sass/style.scss */
+#block-quicktabsnews #quicktabs-container-news .views-field-created {
+  font-size: 13px;
+  color: #3A3A6C;
+}
+
+/* line 353, ../sass/style.scss */
+.services {
+  margin-bottom: 80px;
+}
+
+/* line 358, ../sass/style.scss */
+article.our-services .comment-user-info img {
+  width: inherit;
+  max-height: inherit;
+  border-radius: 50%;
+}
+/* line 365, ../sass/style.scss */
+article.our-services .field--name-field-description a.abuse {
+  color: #BF002F;
+  text-decoration: underline;
+  font-size: 12px;
+  display: block;
+  float: right;
+  text-transform: uppercase;
+}
+
+/* line 376, ../sass/style.scss */
+.view-our-services .view-header {
+  float: right;
+  width: 150px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  position: relative;
+  top: -55px;
+}
+/* line 384, ../sass/style.scss */
+.view-our-services .view-header a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+}
+
+/* line 393, ../sass/style.scss */
+#block-views-block-our-services-block-1 h2.block-title, .view-our-services h2.block-title {
+  font-size: 30px;
+  color: #121212;
+  margin-top: 55px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+}
+/* line 400, ../sass/style.scss */
+#block-views-block-our-services-block-1 .views-row, .view-our-services .views-row {
+  margin-bottom: 30px;
+}
+/* line 403, ../sass/style.scss */
+#block-views-block-our-services-block-1 .views-row .views-field-field-taxonmy-image img, .view-our-services .views-row .views-field-field-taxonmy-image img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/* line 411, ../sass/style.scss */
+#block-views-block-our-services-block-1 .views-row .views-field-field-logo svg, .view-our-services .views-row .views-field-field-logo svg {
+  color: #fff;
+  font-size: 30px;
+  display: block;
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  padding: 30px;
+  margin: 0 auto;
+}
+/* line 423, ../sass/style.scss */
+#block-views-block-our-services-block-1 .views-row .views-field-name, .view-our-services .views-row .views-field-name {
+  text-align: center;
+  margin-top: 5px;
+}
+/* line 426, ../sass/style.scss */
+#block-views-block-our-services-block-1 .views-row .views-field-name a, .view-our-services .views-row .views-field-name a {
+  color: #121212;
+  font-size: 18px;
+}
+/* line 433, ../sass/style.scss */
+#block-views-block-our-services-block-1 .more-link a, .view-our-services .more-link a {
+  border: 1px solid #3A3A6C;
+  border-radius: 10px;
+  color: #121212;
+  font-size: 18px;
+  display: block;
+  width: 230px;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+/* line 448, ../sass/style.scss */
+article.our-services #bxslider-field-image {
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 452, ../sass/style.scss */
+article.our-services .bx-controls-direction {
+  position: absolute;
+  bottom: 35%;
+  width: 100%;
+}
+/* line 456, ../sass/style.scss */
+article.our-services .bx-controls-direction a {
+  font-size: 34px;
+  color: #fff;
+  background: #BF002F;
+  padding: 15px 10px;
+}
+/* line 462, ../sass/style.scss */
+article.our-services .bx-controls-direction a.bx-prev {
+  margin-left: 50px;
+  float: left;
+}
+/* line 466, ../sass/style.scss */
+article.our-services .bx-controls-direction a.bx-next {
+  float: right;
+  margin-right: 50px;
+}
+
+/* line 474, ../sass/style.scss */
+#node-our-services-form .form-type-vertical-tabs, #node-our-services-form #edit-moderation-state-0, #node-our-services-edit-form .form-type-vertical-tabs, #node-our-services-edit-form #edit-moderation-state-0 {
+  display: none;
+}
+/* line 478, ../sass/style.scss */
+#node-our-services-form .description.help-block a, #node-our-services-form .filter-help a, #node-our-services-edit-form .description.help-block a, #node-our-services-edit-form .filter-help a {
+  color: #17a2b8;
+  font-weight: bold;
+}
+/* line 484, ../sass/style.scss */
+#node-our-services-form #edit-body-0-format .select-wrapper, #node-our-services-edit-form #edit-body-0-format .select-wrapper {
+  width: 100%;
+}
+/* line 488, ../sass/style.scss */
+#node-our-services-form label, #node-our-services-edit-form label {
+  float: left;
+  width: 120px;
+}
+/* line 492, ../sass/style.scss */
+#node-our-services-form .form-text, #node-our-services-form .select-wrapper, #node-our-services-form .form-url, #node-our-services-edit-form .form-text, #node-our-services-edit-form .select-wrapper, #node-our-services-edit-form .form-url {
+  width: 50%;
+  border-radius: 0;
+}
+/* line 496, ../sass/style.scss */
+#node-our-services-form select, #node-our-services-edit-form select {
+  border-radius: 0;
+}
+/* line 500, ../sass/style.scss */
+#node-our-services-form .form-type-textarea label, #node-our-services-edit-form .form-type-textarea label {
+  float: inherit;
+}
+
+/* line 506, ../sass/style.scss */
+.path-service-list .view-header {
+  float: right;
+}
+/* line 508, ../sass/style.scss */
+.path-service-list .view-header .add-services-content {
+  width: 155px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: 0;
+}
+/* line 514, ../sass/style.scss */
+.path-service-list .view-header .add-services-content a {
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+}
+/* line 524, ../sass/style.scss */
+.path-service-list #views-exposed-form-our-services--page-1 button {
+  background: #BF002F 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  width: 125px;
+  height: 43px;
+  border: 0;
+}
+/* line 531, ../sass/style.scss */
+.path-service-list #views-exposed-form-our-services--page-1 select.form-select {
+  height: 42px;
+}
+/* line 535, ../sass/style.scss */
+.path-service-list .views-view-responsive-grid {
+  padding-top: 30px;
+}
+/* line 538, ../sass/style.scss */
+.path-service-list .views-view-responsive-grid .views-field-field-image img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/* line 544, ../sass/style.scss */
+.path-service-list .views-view-responsive-grid .views-field-title a {
+  display: block;
+  color: #121212;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* line 556, ../sass/style.scss */
+#block-views-block-vedio-of-the-week-block-1 h2.block-title {
+  font-size: 30px;
+  color: #121212;
+  margin-top: 55px;
+  padding-bottom: 7px;
+  text-transform: uppercase;
+}
+/* line 564, ../sass/style.scss */
+#block-views-block-vedio-of-the-week-block-1 .views-field-field-media video {
+  width: 100% !important;
+  height: 312px;
+}
+/* line 569, ../sass/style.scss */
+#block-views-block-vedio-of-the-week-block-1 .views-field-title {
+  background: #00002E 0% 0% no-repeat padding-box;
+  padding: 10px 18px;
+}
+/* line 572, ../sass/style.scss */
+#block-views-block-vedio-of-the-week-block-1 .views-field-title a {
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 579, ../sass/style.scss */
+.marriage {
+  background: url("../images/component.png");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 587, ../sass/style.scss */
+.marriage .marriage-shadow {
+  background: transparent linear-gradient(180deg, #F7F7F7 0%, #EDF9FF 100%) 0% 0% no-repeat padding-box;
+  opacity: 0.9;
+  height: 400px;
+}
+/* line 593, ../sass/style.scss */
+.marriage #edit-field-age-value--wrapper .form-item, .marriage #edit-field-age-value--2--wrapper .form-item {
+  display: block;
+}
+/* line 595, ../sass/style.scss */
+.marriage #edit-field-age-value--wrapper .form-item label, .marriage #edit-field-age-value--2--wrapper .form-item label {
+  font-size: 18px;
+  color: #121212;
+}
+/* line 602, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 h2.block-title, .marriage #views-exposed-form-user-marriage-page-1 h2.block-title {
+  font-size: 30px;
+  color: #121212;
+  margin-top: 34px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+/* line 609, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 fieldset, .marriage #views-exposed-form-user-marriage-page-1 fieldset {
+  float: left;
+  margin-right: 140px;
+}
+/* line 613, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-age-value, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-age-value {
+  float: left;
+  margin-right: 135px;
+}
+/* line 616, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-age-value .form-checkboxes, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-age-value .form-checkboxes {
+  display: block;
+}
+/* line 623, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 select#edit-field-state-value, .marriage #views-exposed-form-user-marriage-page-1 select#edit-field-state-value {
+  width: 300px;
+  height: 50px;
+}
+/* line 627, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-submit, .marriage #views-exposed-form-user-marriage-page-1 .form-submit {
+  background: #BF002F 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  width: 230px;
+  height: 50px;
+  font-size: 18px;
+  border: 0;
+  margin-top: 30px;
+}
+/* line 635, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-submit .icon, .marriage #views-exposed-form-user-marriage-page-1 .form-submit .icon {
+  display: none;
+}
+/* line 640, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-age-value label, .marriage #block-exposedformmarriagepage-1 .form-type-select label, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-age-value label, .marriage #views-exposed-form-user-marriage-page-1 .form-type-select label {
+  display: block;
+  color: #121212;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+/* line 648, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-type-radio, .marriage #views-exposed-form-user-marriage-page-1 .form-type-radio {
+  position: relative;
+}
+/* line 650, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-type-radio label, .marriage #views-exposed-form-user-marriage-page-1 .form-type-radio label {
+  position: absolute;
+  bottom: 40px;
+  left: 32%;
+  color: #fff;
+  font-size: 20px;
+}
+/* line 658, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 legend, .marriage #views-exposed-form-user-marriage-page-1 legend {
+  border-bottom: 0;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+/* line 662, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 legend span, .marriage #views-exposed-form-user-marriage-page-1 legend span {
+  color: #121212;
+  font-size: 20px;
+}
+/* line 668, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-sex-value:nth-child(2) .font-icon, .marriage #block-exposedformmarriagepage-1 .form-item-field-gender-value:nth-child(3) .font-icon, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-sex-value:nth-child(2) .font-icon, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-gender-value:nth-child(3) .font-icon {
+  width: 180px;
+  height: 180px;
+  background: transparent linear-gradient(180deg, #39D7D2 0%, #5EA5EA 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+}
+/* line 675, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-sex-value:nth-child(2) svg, .marriage #block-exposedformmarriagepage-1 .form-item-field-gender-value:nth-child(3) svg, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-sex-value:nth-child(2) svg, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-gender-value:nth-child(3) svg {
+  font-size: 77px;
+  color: #fff;
+  padding: 0;
+  margin: 35px 75px;
+}
+/* line 683, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-sex-value:nth-child(3) .font-icon, .marriage #block-exposedformmarriagepage-1 .form-item-field-gender-value:nth-child(2) .font-icon, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-sex-value:nth-child(3) .font-icon, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-gender-value:nth-child(2) .font-icon {
+  width: 180px;
+  height: 180px;
+  background: transparent linear-gradient(180deg, #E13A8D 0%, #E56363 100%) 0% 0% no-repeat padding-box;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+/* line 690, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-sex-value:nth-child(3) svg, .marriage #block-exposedformmarriagepage-1 .form-item-field-gender-value:nth-child(2) svg, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-sex-value:nth-child(3) svg, .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-gender-value:nth-child(2) svg {
+  font-size: 77px;
+  color: #fff;
+  padding: 0;
+  margin: 35px 75px;
+}
+/* line 697, ../sass/style.scss */
+.marriage #block-exposedformmarriagepage-1 .form-item-field-sex-value:nth-child(1), .marriage #block-exposedformmarriagepage-1 .form-item-field-gender-value:nth-child(1), .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-sex-value:nth-child(1), .marriage #views-exposed-form-user-marriage-page-1 .form-item-field-gender-value:nth-child(1) {
+  display: none;
+}
+
+/* line 705, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 h2.block-title, .view-our-kitchen h2.block-title {
+  color: #121212;
+  font-size: 30px;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+/* line 712, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .views-row:nth-child(2), .view-our-kitchen .views-row:nth-child(2) {
+  margin: 0 22px;
+}
+/* line 715, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .views-row, .view-our-kitchen .views-row {
+  float: left;
+}
+/* line 717, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .views-row .views-field-title, .view-our-kitchen .views-row .views-field-title {
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  border: 1px solid #DDDDDD;
+  border-radius: 0 0 10px 10px;
+}
+/* line 722, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .views-row .views-field-title a, .view-our-kitchen .views-row .views-field-title a {
+  font-size: 18px;
+  color: #3A3A6C;
+  display: block;
+  padding: 16px 12px;
+}
+/* line 729, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .views-row img, .view-our-kitchen .views-row img {
+  border-radius: 10px 10px 0px 0px;
+}
+/* line 733, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .view-content, .view-our-kitchen .view-content {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+/* line 737, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .more-link, .view-our-kitchen .more-link {
+  border: 1px solid #3A3A6C;
+  border-radius: 10px;
+  width: 230px;
+  margin: 30px auto;
+  clear: both;
+  display: block;
+}
+/* line 744, ../sass/style.scss */
+#block-views-block-our-kitchen-block-1 .more-link a, .view-our-kitchen .more-link a {
+  text-align: center;
+  color: #121212;
+  font-size: 18px;
+  padding: 15px 0;
+  display: block;
+  text-transform: uppercase;
+}
+
+/* line 755, ../sass/style.scss */
+.view-our-kitchen .views-row:nth-child(2) {
+  margin: 0 0 30px 0;
+}
+/* line 758, ../sass/style.scss */
+.view-our-kitchen .views-col.col-2 {
+  margin: 0 22px;
+}
+/* line 761, ../sass/style.scss */
+.view-our-kitchen .views-row {
+  margin-bottom: 30px;
+}
+
+/* line 766, ../sass/style.scss */
+footer {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  padding: 30px 0;
+}
+/* line 770, ../sass/style.scss */
+footer #block-footermap .footermap-col {
+  padding: 0;
+  margin: 0;
+}
+/* line 774, ../sass/style.scss */
+footer #block-footermap ul {
+  padding: 0;
+}
+/* line 776, ../sass/style.scss */
+footer #block-footermap ul li.footermap-item--depth-1 {
+  float: left;
+  width: 200px;
+}
+/* line 779, ../sass/style.scss */
+footer #block-footermap ul li.footermap-item--depth-1 a {
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  margin-bottom: 12px;
+}
+/* line 787, ../sass/style.scss */
+footer #block-footermap ul li.footermap-item--depth-1 ul li.footermap-item--depth-2 a {
+  font-size: 18px;
+}
+
+/* line 798, ../sass/style.scss */
+.footer-bottom {
+  text-align: center;
+  background: #22224D 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding: 15px 0;
+}
+
+/* line 806, ../sass/style.scss */
+.user-logged-in.path-user-marriage .view-header {
+  display: none;
+}
+
+/* line 812, ../sass/style.scss */
+.path-node .field--type-image, .user-logged-in .field--type-image {
+  padding-bottom: 30px;
+}
+/* line 815, ../sass/style.scss */
+.path-node #edit-contact, .user-logged-in #edit-contact {
+  display: none;
+}
+
+/* line 820, ../sass/style.scss */
+.content-wrap {
+  padding-bottom: 30px;
+}
+/* line 822, ../sass/style.scss */
+.content-wrap h1 {
+  font-size: 30px;
+  border-bottom: 0 !important;
+  color: #121212;
+}
+/* line 828, ../sass/style.scss */
+.content-wrap .field--type-image img {
+  width: 100%;
+  max-height: 400px;
+}
+/* line 833, ../sass/style.scss */
+.content-wrap .field--name-body {
+  color: #121212;
+  font-size: 15px;
+}
+
+/* line 842, ../sass/style.scss */
+.video-of-the-week video {
+  width: 100%;
+}
+
+/* line 849, ../sass/style.scss */
+.path-webform form.webform-submission-form label {
+  float: left;
+  width: 20%;
+}
+/* line 853, ../sass/style.scss */
+.path-webform form.webform-submission-form input.form-text, .path-webform form.webform-submission-form input.form-email {
+  width: 50%;
+  border-radius: 0;
+}
+/* line 857, ../sass/style.scss */
+.path-webform form.webform-submission-form textarea {
+  border-radius: 0;
+}
+/* line 860, ../sass/style.scss */
+.path-webform form.webform-submission-form button.form-submit {
+  width: 150px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: 0;
+}
+
+/* line 871, ../sass/style.scss */
+.path-user-marriage .region-content {
+  position: relative;
+}
+/* line 874, ../sass/style.scss */
+.path-user-marriage .view-header {
+  position: absolute;
+  top: 18px;
+  right: 0;
+}
+/* line 879, ../sass/style.scss */
+.path-user-marriage .view-header a {
+  width: 150px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  font-size: 15px;
+  color: #fff;
+  padding: 12px 60px;
+}
+/* line 892, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 button {
+  width: 270px;
+  margin-top: 30px;
+  background: #BF002F 0% 0% no-repeat padding-box;
+  border: 0;
+  margin-right: 0;
+  padding: 10px;
+}
+/* line 901, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-item-field-state-value label {
+  display: block;
+}
+/* line 905, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 #edit-field-age-value--2--wrapper {
+  width: 25%;
+}
+/* line 909, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-checkboxes .form-item, .path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-radios .form-item {
+  display: block;
+}
+/* line 914, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 #edit-field-gender-value--2--wrapper {
+  width: 32%;
+  display: block;
+}
+/* line 918, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 #edit-field-gender-value--2--wrapper .form-item:nth-child(1) {
+  display: none;
+}
+/* line 924, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-type-select {
+  width: 270px;
+}
+/* line 926, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-type-select .select-wrapper {
+  float: right;
+}
+/* line 928, ../sass/style.scss */
+.path-user-marriage #block-exposedformuser-marriagepage-1-2 #views-exposed-form-user-marriage-page-1 .form-type-select .select-wrapper select {
+  width: 270px;
+  height: 40px;
+}
+/* line 937, ../sass/style.scss */
+.path-user-marriage .view-user-marriage h3 {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  color: #fff;
+  padding: 5px;
+}
+/* line 943, ../sass/style.scss */
+.path-user-marriage .view-user-marriage .views-field-user-picture img {
+  border-radius: 50%;
+  margin: 0 auto;
+}
+/* line 948, ../sass/style.scss */
+.path-user-marriage .view-user-marriage .views-field-name {
+  text-align: center;
+}
+/* line 950, ../sass/style.scss */
+.path-user-marriage .view-user-marriage .views-field-name a {
+  color: #121212;
+}
+
+/* login */
+/* line 959, ../sass/style.scss */
+.path-user .nav-tabs > li.active > a, .path-user .nav-tabs > li.active > a:hover, .path-user .nav-tabs > li.active > a:focus {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  color: #fff;
+  border: 0;
+  border-bottom: 3px solid #8686FF;
+}
+/* line 966, ../sass/style.scss */
+.path-user nav.tabs ul {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  border-radius: 10px 10px 0px 0px;
+  height: 52px;
+  padding-left: 0;
+}
+/* line 971, ../sass/style.scss */
+.path-user nav.tabs ul a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+/* line 978, ../sass/style.scss */
+.path-user nav.tabs ul a.is-active, .path-user nav.tabs ul a:hover {
+  background: #3A3A6C 0% 0% no-repeat padding-box;
+  border: 0;
+  border-bottom: 3px solid #8686FF;
+  color: #fff;
+}
+/* line 984, ../sass/style.scss */
+.path-user nav.tabs ul a:hover {
+  margin-right: 0;
+  border-radius: 0;
+  border: 0;
+  color: #fff;
+  border-bottom: 3px solid #8686FF;
+}
+/* line 993, ../sass/style.scss */
+.path-user #user-login-form, .path-user #user-register-form, .path-user #user-pass, .path-user #contact-message-personal-form, .path-user #user-form {
+  margin-top: 20px;
+}
+/* line 995, ../sass/style.scss */
+.path-user #user-login-form input.form-text, .path-user #user-login-form select.form-select, .path-user #user-login-form input.form-file, .path-user #user-login-form input.form-email, .path-user #user-login-form textarea, .path-user #user-register-form input.form-text, .path-user #user-register-form select.form-select, .path-user #user-register-form input.form-file, .path-user #user-register-form input.form-email, .path-user #user-register-form textarea, .path-user #user-pass input.form-text, .path-user #user-pass select.form-select, .path-user #user-pass input.form-file, .path-user #user-pass input.form-email, .path-user #user-pass textarea, .path-user #contact-message-personal-form input.form-text, .path-user #contact-message-personal-form select.form-select, .path-user #contact-message-personal-form input.form-file, .path-user #contact-message-personal-form input.form-email, .path-user #contact-message-personal-form textarea, .path-user #user-form input.form-text, .path-user #user-form select.form-select, .path-user #user-form input.form-file, .path-user #user-form input.form-email, .path-user #user-form textarea {
+  border-radius: 0;
+}
+/* line 998, ../sass/style.scss */
+.path-user #user-login-form button.btn-success, .path-user #user-login-form button.btn-primary, .path-user #user-register-form button.btn-success, .path-user #user-register-form button.btn-primary, .path-user #user-pass button.btn-success, .path-user #user-pass button.btn-primary, .path-user #contact-message-personal-form button.btn-success, .path-user #contact-message-personal-form button.btn-primary, .path-user #user-form button.btn-success, .path-user #user-form button.btn-primary {
+  padding: 12px 30px;
+  height: 44px;
+  background: #8686FF 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  border: 0;
+  font-size: 15px;
+}
+/* line 1007, ../sass/style.scss */
+.path-user #user-login-form .filter-help a, .path-user #user-login-form .description.help-block a, .path-user #user-register-form .filter-help a, .path-user #user-register-form .description.help-block a, .path-user #user-pass .filter-help a, .path-user #user-pass .description.help-block a, .path-user #contact-message-personal-form .filter-help a, .path-user #contact-message-personal-form .description.help-block a, .path-user #user-form .filter-help a, .path-user #user-form .description.help-block a {
+  color: #17a2b8 !important;
+}
+/* line 1012, ../sass/style.scss */
+.path-user #user-login-form #edit-field-gender .form-item:nth-child(1), .path-user #user-register-form #edit-field-gender .form-item:nth-child(1), .path-user #user-pass #edit-field-gender .form-item:nth-child(1), .path-user #contact-message-personal-form #edit-field-gender .form-item:nth-child(1), .path-user #user-form #edit-field-gender .form-item:nth-child(1) {
+  display: none;
+}
+/* line 1016, ../sass/style.scss */
+.path-user #user-login-form #edit-contact, .path-user #user-login-form #edit-preview, .path-user #user-register-form #edit-contact, .path-user #user-register-form #edit-preview, .path-user #user-pass #edit-contact, .path-user #user-pass #edit-preview, .path-user #contact-message-personal-form #edit-contact, .path-user #contact-message-personal-form #edit-preview, .path-user #user-form #edit-contact, .path-user #user-form #edit-preview {
+  display: none;
+}
+
+/* line 1022, ../sass/style.scss */
+#block-views-block-thiker-block-1 h2.block-title {
+  margin-top: 0;
+  border-bottom: 3px solid #3A3A6C;
+  padding-bottom: 29px;
+}
+/* line 1027, ../sass/style.scss */
+#block-views-block-thiker-block-1 .view-thiker {
+  text-align: center;
+}
+/* line 1030, ../sass/style.scss */
+#block-views-block-thiker-block-1 ul {
+  padding-left: 0;
+}
+/* line 1034, ../sass/style.scss */
+#block-views-block-thiker-block-1 .bx-pager .bx-pager-item {
+  display: inline-block;
+}
+/* line 1036, ../sass/style.scss */
+#block-views-block-thiker-block-1 .bx-pager .bx-pager-item a {
+  width: 20px;
+  height: 20px;
+  background-color: #3A3A6C;
+  border-radius: 50%;
+  display: block;
+  margin: 3px;
+  font-size: 0;
+}
+/* line 1045, ../sass/style.scss */
+#block-views-block-thiker-block-1 .bx-pager .bx-pager-item a.active {
+  opacity: 0.8;
+  background-color: #8686FF;
+}
+
+/* line 1055, ../sass/style.scss */
+#block-prayertime h2.block-title {
+  border-bottom: 3px solid #3A3A6C;
+  padding-bottom: 29px;
+}
