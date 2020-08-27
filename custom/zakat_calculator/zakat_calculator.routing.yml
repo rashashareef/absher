@@ -1,0 +1,7 @@
+zakat_calculator.zakat_form:
+  path: '/zakat-calculator/zakat-form'
+  defaults:
+    _form:  '\Drupal\zakat_calculator\Form\ZakatForm'
+    _title: 'Zakat'
+  requirements:
+    _permission: 'access content'

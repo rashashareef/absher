@@ -1,0 +1,42 @@
+<?php
+
+ use Drupal\Core\Form\FormStateInterface;
+ use Drupal\Core\Entity\EntityInterface;
+ use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+ use Drupal\node\Entity\NodeType;
+ use Drupal\Core\Url;
+ use Drupal\Core\Link;
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+
+function absher_custom_node_view(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display, $view_mode) {
+
+   $path = \Drupal::request()->getpathInfo(); //find path information.
+   $arg  = explode('/',$path);//conver path infromation to array.
+
+   if($arg[1]=='node' && !is_null($arg[2])){
+     $node = \Drupal::routeMatch()->getParameter('node'); // find Node.
+     $type = $node->getType(); // find node type.
+     if($type == 'our_services' && $node->isPublished()){
+       $l = \Drupal::l(t('Report Abuse'), Url::fromUri('internal:/form/report-abuse?nid='.$arg[2]));
+       $build['field_description'][0]['#text'] .= $l ;
+     }
+   }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function absher_custom_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+     if($form_id == 'webform_submission_report_abuse_add_form'){
+       $nid = \Drupal::request()->query->get('nid');//find node id.
+       $form['elements']['nid']['#default_value'] = $nid;//add default value to field.
+       if(!is_null($nid)){
+         $node = \Drupal\node\Entity\Node::load($nid);// load node function.
+         $title = $node->getTitle();//find node Title.
+         $form['elements']['page_name']['#default_value'] = $title; //add default value.
+       }
+     }
+}

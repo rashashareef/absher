@@ -1,0 +1,11 @@
+name: Zakat Calculator
+type: module
+description: Demonstrates the Drupal Form API.
+package: Zakat modules
+core: 8.x
+
+
+# Information added by Drupal.org packaging script on 2019-08-23
+version: '8.x-1.0'
+project: 'examples'
+datestamp: 1566573495
