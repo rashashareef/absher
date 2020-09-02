@@ -59,35 +59,7 @@
 {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
 {# Navbar #}
 
-<header id="header" role="banner">
-  <div class="header">
-    <div class="{{ container }}">
-      <div class='row'>
-      <div class="header_left col-md-3 col-sm-2 col-xs-12">
-          {% if page.logo %}
-              <div class="logo">
-                  {{ page.logo }}
-              </div>
-          {% endif %}
-      </div>
-      <div class="search-wrap col-md-6 col-sm-6 col-xs-12">
-          {% if page.search %}
-              <div class="search">
-                  {{ page.search }}
-              </div>
-          {% endif %}
-      </div>
-      <div class="social-link--wrap col-md-3 col-sm-4 col-xs-12">
-          {% if page.social_link %}
-              <div class="social-link">
-                  {{ page.social_link }}
-              </div>
-          {% endif %}
-      </div>
-      </div>
-    </div>
-  </div>
-</header>
+{{ include('header.html.twig') }}
 
 <div class="main-menu-wrap col-md-12 col-sm-12 col-xs-12">
     {% if page.main_menu %}
